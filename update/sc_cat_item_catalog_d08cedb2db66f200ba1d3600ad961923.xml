@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="SailPoint Access Request">5ae12c49db55b600dc513ecf9d961926</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>arun.chauhan</sys_created_by>
+        <sys_created_on>2017-05-09 09:37:01</sys_created_on>
+        <sys_id>d08cedb2db66f200ba1d3600ad961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.SailPoint Access Request</sys_name>
+        <sys_package display_value="SailPoint Service Integration Module" source="x_sap_sim">1f8d94c5db55b600dc513ecf9d9619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SailPoint Service Integration Module">1f8d94c5db55b600dc513ecf9d9619da</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d08cedb2db66f200ba1d3600ad961923</sys_update_name>
+        <sys_updated_by>arun.chauhan</sys_updated_by>
+        <sys_updated_on>2017-05-09 09:37:01</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

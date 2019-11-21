@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_sap_sim.SailPointServiceRequestLogger</api_name>
+        <client_callable>false</client_callable>
+        <description>Util script for logging SailPoint Catalog Scripted REST API</description>
+        <name>SailPointServiceRequestLogger</name>
+        <script><![CDATA[/* 
+ * (c) Copyright 2018 SailPoint Technologies, Inc., All Rights Reserved.
+ */
+
+var SailPointServiceRequestLogger = Class.create();
+SailPointServiceRequestLogger.prototype = {
+    initialize: function() {
+		this.logLevel = gs.getProperty('x_sap_sim.logging.verbosity');
+    },
+	
+	debug : function(msg) {
+        if (this.logLevel == 'debug') {
+            gs.debug( msg);
+        }
+    },
+
+	info : function(msg) {
+        if (this.logLevel == 'info') {
+            gs.info( msg);
+        }
+    },
+
+	error : function(msg) {
+        if (this.logLevel == 'error') {
+            gs.error( msg);
+        }
+    },
+
+	warn : function(msg) {
+        if (this.logLevel == 'warn') {
+            gs.warn( msg);
+        }
+    },
+
+    type: 'SailPointServiceRequestLogger'
+};
+
+SailPointServiceRequestLogger.get = function(){
+	return new SailPointServiceRequestLogger();
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>arun.chauhan</sys_created_by>
+        <sys_created_on>2018-02-16 07:48:57</sys_created_on>
+        <sys_id>c53d26b9db945b0072a251b0cf96194f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SailPointServiceRequestLogger</sys_name>
+        <sys_package display_value="SailPoint Service Integration Module" source="x_sap_sim">1f8d94c5db55b600dc513ecf9d9619da</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SailPoint Service Integration Module">1f8d94c5db55b600dc513ecf9d9619da</sys_scope>
+        <sys_update_name>sys_script_include_c53d26b9db945b0072a251b0cf96194f</sys_update_name>
+        <sys_updated_by>arun.chauhan</sys_updated_by>
+        <sys_updated_on>2018-02-16 13:21:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

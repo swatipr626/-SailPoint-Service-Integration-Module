@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Service Integraiton Module Properties">b7ada2eddb905b0072a251b0cf9619c5</category>
+        <order>1</order>
+        <property display_value="x_sap_sim.logging.verbosity" name="x_sap_sim.logging.verbosity">88fda221dbd05b0072a251b0cf9619fd</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>arun.chauhan</sys_created_by>
+        <sys_created_on>2018-02-15 13:12:50</sys_created_on>
+        <sys_id>533ee2eddb905b0072a251b0cf9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sap_sim.logging.verbosity.Service Integraiton Module Properties</sys_name>
+        <sys_package display_value="SailPoint Service Integration Module" source="x_sap_sim">1f8d94c5db55b600dc513ecf9d9619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SailPoint Service Integration Module">1f8d94c5db55b600dc513ecf9d9619da</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_533ee2eddb905b0072a251b0cf9619c6</sys_update_name>
+        <sys_updated_by>arun.chauhan</sys_updated_by>
+        <sys_updated_on>2018-02-15 13:12:50</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
